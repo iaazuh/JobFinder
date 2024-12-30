@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+    text-align: center;
+    background-color: rgb(49, 45, 45);
+  }
