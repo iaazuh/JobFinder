@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
+import Logo from '../assets/Images/logologo-removebg-preview.png'
 
 const Navbar = () => {
 
@@ -16,7 +17,7 @@ const linkClass = ({isActive})=> isActive ? ' bg-black text-white hover:bg-gray-
             <Link className="flex flex-shrink-0 items-center mr-4" to="/">
               <img
                 className="h-12 w-auto"
-                src="src\assets\Images\logologo-removebg-preview.png"
+                src={Logo}
                 alt="JobFinder"
               /> 
             </Link>
